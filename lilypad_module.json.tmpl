@@ -11,13 +11,7 @@
         "Concurrency": 1
       },
       "Docker": {
-         "EnvironmentVariables": [
-                "WEB3_PRIVATE_KEY=d383dbe8504daa149f2f402b8669faecf8646b87be606f3d4655355b41603d81"
-            ],
-        "Entrypoint": [
-          "/usr/games/hello"
-          
-        ],
+        "Entrypoint": ["python3", "./hello-world.py"],
         "Image": "abgbjb2001860/hello@sha256:87dc944c1234deaaa394e1bfc6f930cbcf85ffc255fcddee25ec42f35234534d"
       },
       "Engine": "Docker",
